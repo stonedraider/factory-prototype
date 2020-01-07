@@ -1,0 +1,30 @@
+<table *ngFor="let entry of config">
+  <colgroup>
+    <col class="leftColumn" />
+    <col class="rightColumn" />
+  </colgroup>
+  <tr *ngIf="entry.type == 'input'">
+    <td><label>{{entry.text}}</label></td>
+    <td><input /></td>
+  </tr>
+  <tr *ngIf="entry.type == 'dropdown'">
+    <td><label>{{entry.text}}</label></td>
+    <td>
+      <select>
+        <option *ngFor="let option of entry.options" value="entry.text">{{option}}</option>
+      </select>
+    </td>
+  </tr>
+  <tr *ngIf="entry.type === 'textarea'">
+    <td><label>{{entry.text}}</label></td>
+    <td>
+      <textarea rows=5></textarea>
+    </td>
+  </tr>
+  <tr *ngIf="entry.type === 'checkbox'">
+      <td><label>{{entry.text}}</label></td>
+      <td>
+        <input type="checkbox">
+      </td>
+    </tr>
+</table>

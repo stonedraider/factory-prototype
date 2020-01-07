@@ -1,0 +1,59 @@
+[
+    {
+        "type": "input",
+        "text": "Bezeichnung"
+    },
+    {
+        "type": "input",
+        "text": "Abkürzung"
+    },
+    {
+        "type": "input",
+        "text": "UIC"
+    },
+    {
+        "type": "input",
+        "text": "CERES1-ID"
+    },
+    {
+        "type": "input",
+        "text": "X-Koordinate"
+    },
+    {
+        "type": "input",
+        "text": "Y-Koordinate"
+    },
+    {
+        "type": "input",
+        "text": "Höhe über Meer"
+    },
+    {
+        "type": "checkbox",
+        "text": "Kommerzieller Bahnhof"
+    },
+    {
+        "type": "checkbox",
+        "text": "Knotenbahnhof m. Onlinemeldung"
+    },
+    {
+        "type": "checkbox",
+        "text": "2-Seitiger Anschlussbildschirm"
+    },
+    {
+        "type": "checkbox",
+        "text": "Halt auf Verlangen"
+    },
+    {
+        "type": "checkbox",
+        "text": "Importsperre"
+    },
+    {
+        "type": "dropdown",
+        "text": "Abbringer-Priorisierung",
+        "options": [
+            "",
+            "Bahnabbringer",
+            "Halb & Halb"
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "type": "input",
+        "text": "Bezeichnung (Deutsch)"
+    },
+    {
+        "type": "input",
+        "text": "Bezeichnung (Französisch)"
+    },
+    {
+        "type": "input",
+        "text": "Bezeichnung (Italienisch)"
+    },
+    {
+        "type": "dropdown",
+        "text": "Meldungstyp",
+        "options": [
+            "",
+            "Anweisung",
+            "Info"
+        ]
+    },
+    {
+        "type": "textarea",
+        "text": "Hilfetext (Deutsch)"
+    },
+    {
+        "type": "textarea",
+        "text": "Hilfetext (Französisch)"
+    },
+    {
+        "type": "textarea",
+        "text": "Hilfetext (Italienisch)"
+    }
+]

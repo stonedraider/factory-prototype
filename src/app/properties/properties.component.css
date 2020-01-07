@@ -1,0 +1,27 @@
+table {
+    width: 750px;
+}
+
+.leftColumn {
+    width: 33%;
+}
+
+.rightColumn {
+    width: 67%;
+}
+
+table td input {
+    width: 100%;
+}
+
+table td select {
+    width: 100%;
+}
+
+table td input[type=checkbox] {
+    width: auto;
+}
+
+table td textarea {
+    width: 100%;
+}
